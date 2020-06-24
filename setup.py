@@ -22,7 +22,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/deeplabcutcore/deeplabcutcorecore",
-    install_requires=['certifi','chardet','click','easydict',
+    install_requires=['certifi','chardet','click','easydict', 'tensorflow-gpu==1.13.1',
                       'h5py~=2.7','intel-openmp','imgaug',
                       'ipython','ipython-genutils',
                       'matplotlib==3.0.3','moviepy<=1.0.1','numpy==1.16.4','opencv-python-headless~=3.4',
